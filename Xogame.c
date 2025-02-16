@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 void creating();
 void marking(int,char);
@@ -30,12 +29,10 @@ else
 {
 printf("match draw");
 }
-getch();
 return 0;
 }
 void creating()
 {
-clrscr();
 printf(" TIC TAC\n");
 printf(" %c | %c | %c\n ",a[1],a[2],a[3]);
 printf("_________\n");
